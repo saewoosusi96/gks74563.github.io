@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<style>
+			table, tr, th, td { border:1px solid black; border-collapse:collapse; }
+			
+		</style>
+		<!-- border-collapse:collapse 단선으로, 반대는 separate -->
+		<title>시간표</title>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<th>시간표</th>
+				<th>월</th>
+				<th>화</th>
+				<th>수</th>
+				<th>목</th>
+				<th>금</th>
+			</tr>
+			<tr>
+				<td><center>1교시<br/>09:00~09:50</center></td>
+				<td><center></center></td>
+				<td rowspan="2"><a class="class_1"><center>전공선택<br/>오토마타와응용</br>황선명교수</br>융합과학관402호</center></a></td>
+				<td><center></center></td>
+				<td><center></center></td>
+				<td><center></center></td>
+			</tr>
+			<tr>
+				<td><center>2교시<br/>10:00~10:50</center></td>
+				<td><center></center></td>
+				<td><center></center></td>
+				<td rowspan="2"><center>전공선택<br/>인터넷프로그래밍<br/>우훈식교수<br/>융합과학관403호</center></td>
+				<td><center>전공필수<br/>디지털논리회로<br/>김용수교수<br/>융합과학관401호</center></td>
+				
+			</tr>
+			<tr>
+				<td><center>3교시<br/>11:00~11:50</center></td>
+				<td><center></center></td>
+				<td><center></center></td>
+				<td rowspan="2"><center>전공필수<br/>디지털논리회로<br/>김용수교수<br/>융합과학관401호</center></td>
+				<td><center></center></td>
+			</tr>
+			<tr>
+				<td><center>4교시<br/>12:00~12:50</center></td>
+				<td><center></center></td>
+				<td><center></center></td>
+				<td><a class="class_1"><center>전공선택<br/>오토마타와응용<br/>황선명교수<br/>융합과학관402호</center></a></td>
+				<td rowspan="3"><center>교양<br/>인문학,사회과학과통계<br/>이재호교수<br/>인문사회관422호</center></td>
+			</tr>
+			<tr>
+				<td><center>5교시<br/>13:00~13:50</center></td>
+				<td><center></center></td>
+				<td><center></center></td>
+				<td><center></center></td>
+				<td><center></center></td>
+			</tr>
+			<tr>
+				<td><center>6교시<br/>14:00~14:50</center></td>
+				<td rowspan="4"><center>전공필수<br/>C++프로그래밍<br/>이새봄교수<br/>융합과학관 414호</center></td>
+				<td><center></center></td>
+				<td><center></center></td>
+				<td><center></center></td>
+			</tr>
+			<tr>
+				<td><center>7교시<br/>15:00~15:50</center></td>
+				<td><center></center></td>
+				<td><center></center></td>
+				<td rowspan="2"><center>전공필수<br/>캠퍼스멘토링<br/>이휘경교수<br/>믿고하교하기</center></td>
+				<td><center></center></td>
+			</tr>
+			<tr>
+				<td><center>8교시<br/>16:00~16:50</center></td>
+				<td><center></center></td>
+				<td rowspan="2"><center>전공선택<br/>인터넷프로그래밍<br/>우훈식교수<br/>융합과학관403호</center></td>
+				<td><center></center></td>
+			</tr>
+			<tr>
+				<td><center>9교시<br/>17:00~17:50</center></td>
+				<td><center></center></td>
+				<td><center></center></td>
+				<td><center></center></td>
+			</tr>
+		</table>
+	</body>
+</html>
