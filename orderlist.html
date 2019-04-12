@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>컴퓨터 견적신청서</title>
+	</head>
+	<body>
+		<section>
+			<form action="./orderlist.jsp" method="post">
+				<fieldset>
+					<legend>컴퓨터 견적</legend>
+					<label for="cpux">CPU :</label>
+					<select id="cpux" name="cpulist">
+						<option value="i7-7세대">i7-7세대_300,000원</option>
+						<option value="i7-8세대">i7-8세대_350,000원</option>
+						<option value="i7-9세대">i7-9세대_400,000원</option>
+						<option value="i5-7세대">i5-7세대_200,000원</option>
+						<option value="i5-8세대">i5-8세대_250,000원</option>
+						<option value="i5-9세대" disabled>i5-9세대_300,000원(품절)</option>
+						<option value="i3-7세대">i3-7세대_100,000원</option>
+						<option value="i3-8세대">i3-8세대_150,000원</option>
+						<option value="i3-9세대">i3-9세대_200,000원</option>
+					</select>
+					<label for="ramx">RAM :</label>
+					<select id="ramx" name="ramlist">
+						<option value="DDR4-4GB">DDR4-4GB_40,000원</option>
+						<option value="DDR4-8GB">DDR4-8GB_75,000원</option>
+						<option value="DDR4-16GB">DDR4-16GB_140,000원</option>
+					</select>
+					<br/>
+					<label for="mbx">M/B :</label>
+					<select id="mbx" name="mblist">
+						<option value="Asrock-A1">Asrock-A1_100,000원</option>
+						<option value="Asrock-A2">Asrock-A2_120,000원</option>
+						<option value="Asus-S1">Asus-S1_170,000원</option>
+						<option value="Asus-S2">Asus-S2_200,000원</option>
+						<option value="GIGABYTE-G1">GIGABYTE-G1_150,000원</option>
+						<option value="GIGABYTE-G2">GIGABYTE-G2_180,000원</option>
+					</select>
+					<label for="ssdx">SSD :</label>
+					<select id="ssdx" name="ssdblist">
+						<option value="SSD128GB">SSD128GB_20,000원</option>
+						<option value="SSD256GB">SSD256GB_35,000원</option>
+						<option value="SSD512GB">SSD512GB_65,000원</option>
+						<option value="SSD1TB">SSD1TB-S2_120,000원</option>
+						<option value="SSD2TB">SSD2TB-G1_220,000원</option>
+						<option value="SSD4TB">SSD4TB-G2_400,000원</option>
+					</select>
+					<br/>
+					<label for="hddx">HDD :</label>
+					<select id="hddx" name="hddblist">
+						<option value="HDD1TB">HDD1TB_40,000원</option>
+						<option value="HDD2TB">HDD2TB_70,000원</option>
+						<option value="HDD4TB">HDD4TB_130,000원</option>
+					</select>
+					<label for="powerx">POWER :</label>
+					<select id="powerx" name="powerlist">
+						<option value="500W">500W_50,000원</option>
+						<option value="600W">600W_70,000원</option>
+						<option value="700W">700W_100,000원</option>
+					</select>
+					<br/>
+					<label for="casex">CASE :</label>
+					<select id="casex" name="caselist">
+						<option value="A">플라스틱_50,000원</option>
+						<option value="B">아크릴_80,000원</option>
+						<option value="C">강화유리_150,000원</option>
+					</select>
+					<label for="osx">운영체제 :</label>
+					<select id="osx" name="oslist">
+						<option value="A">윈도우7_70,000원</option>
+						<option value="B">윈도우10_80,000원</option>
+						<option value="C">윈도우11_999,999,999원</option>
+					</select>
+					<br/>
+					<input type="checkbox" id="making" name="making" value="making" checked/>
+					<label for="making">조립(10,000원)</label>
+				</fieldset>
+				<button type="submit">주문하기</button>
+				<input type="reset" name="reset1" value="취소"/>
+			</form>
+		</section>
+	</body>
+</html>
