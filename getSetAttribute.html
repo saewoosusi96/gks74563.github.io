@@ -9,7 +9,7 @@
 		<script>
 			function fnGetSetAttribute()
 			{
-				var accessTag = document.getElementById("user_id");
+				var accessTag = document.getElementsByName("user_id")[0];
 				accessTag.getAttribute("value");
 				console.log(accessTag.tagName);
 				accessTag.setAttribute("value","로그인");
